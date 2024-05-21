@@ -1,0 +1,112 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(-45deg, #12100e, #17140c, #15150d);
+  background-size: 400% 400%;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  padding: 20px;
+  font-family: "helvetica";
+  font-weight: lighter;
+  mix-blend-mode: difference;
+
+}
+
+.header a {
+  color: #9f9f9f;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header:hover {
+  mix-blend-mode: multiply;
+
+}
+
+
+.header-right {
+  position: fixed;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  padding: 20px;
+  font-family: "helvetica";
+  font-weight: lighter;
+  mix-blend-mode: difference;
+}
+
+.header-right a {
+  color: #9f9f9f;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header-right:hover {
+  mix-blend-mode: multiply;
+}
+
+
+
+#player-container #play-pause {
+  cursor: pointer;
+  text-indent: -999999px;
+  height: 40px;
+  width: 40px;
+  padding: 12px 18px;
+  z-index: 2;
+  background-image: url(https://i.ibb.co/3mWX0rf/icon-01.png);
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.play {
+  background-image: url(https://i.ibb.co/3mWX0rf/icon-01.png);
+
+}
+
+.pause {
+  background-image: url(https://i.ibb.co/vqRknx1/icon-02.png) !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  mix-blend-mode: difference;
+}
+
+.footer:hover {
+  mix-blend-mode: multiply;
+
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -500;
+  /* filter: blur(6px); */
+}
